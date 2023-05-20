@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/formulario_com_DOM/style.css" />
+  </head>
+  <body>
+    <h1>Formulário</h1>
+
+    <form id="form">
+      <fieldset id="fieldset">
+        <legend>Dados pessoais</legend>
+        <label for="nome">Nome</label>
+        <input
+          type="text"
+          id="nome"
+          name="name"
+          placeholder="Nome"
+        /><br /><br />
+
+        <label for="endereco">Endereço</label>
+        <input
+          type="text"
+          id="endereco"
+          name="address"
+          placeholder="Endereço"
+        /><br /><br />
+
+        <label for="cidade">Cidade</label>
+        <input
+          type="text"
+          id="cidade"
+          name="city"
+          placeholder="Cidade"
+        /><br /><br />
+
+        <label for="estado">Estado</label>
+        <select id="estado" name="state">
+          <option>Rio de Janeiro</option>
+          <option>São Paulo</option>
+          <option>Rio Grande do Sul</option>
+          <option>Rio Grande do Norte</option>
+          <option>Pernambuco</option>
+          <option>Bahia</option>
+          <option>Amazonas</option>
+          <option>Pará</option>
+          <option>Acre</option>
+          <option>Santa Catarina</option>
+          <option>Espírito Santo</option>
+          <option>Mato Grosso</option>
+          <option>Mato Grosso do Sul</option>
+          <option>Rondônia</option>
+          <option>Ceará</option>
+          <option>Minas Gerais</option>
+          <option>Roraima</option>
+          <option>Tocantins</option>
+          <option>Piauí</option>
+          <option>Sergipe</option>
+          <option>Maranhão</option>
+          <option>Alagoas</option>
+          <option>Distrito Federal</option>
+          <option>Goiás</option>
+          <option>Amapá</option>
+          <option>Paraíba</option></select
+        ><br /><br />
+      </fieldset>
+
+      <fieldset id="fieldset2">
+        <legend>Dados profissionais</legend>
+        <p>Natureza do cargo:</p>
+
+        <input type="radio" id="gerencia" name="cargo" value="gerencia" />
+        <label for="gerencia">Gerência</label>
+
+        <input type="radio" id="financeiro" name="cargo" value="financeiro" />
+        <label for="financeiro">Financeiro</label>
+
+        <input type="radio" id="recepcao" name="cargo" />
+        <label for="recepcao">Recepção</label>
+
+        <input type="radio" id="administrativo" name="cargo" />
+        <label for="administrativo">Administrativo</label>
+
+        <input type="radio" id="birthday" name="cargo" />
+        <label for="fname">Jurídico</label>
+
+        <p>Área de interesse:</p>
+
+        <input type="checkbox" id="computacao" name="area" value="computacao" />
+        <label for="computacao">Computação</label>
+
+        <input type="checkbox" id="biologia" name="area" value="biologia" />
+        <label for="biologia">Biologia</label>
+
+        <input type="checkbox" id="recepcao" name="area" />
+        <label for="recepcao">Meio Ambiente</label>
+
+        <input type="checkbox" id="engenharia" name="area" />
+        <label for="engenharia">Engenharia</label>
+
+        <input type="checkbox" id="historia" name="area" />
+        <label for="historia">História</label><br /><br />
+
+        <label for="mini_curriculo">Mini-currículo:</label>
+        <textarea
+          name="mini_curriculo"
+          id="textarea"
+          cols="50"
+          rows="10"
+        ></textarea>
+      </fieldset>
+
+      <input type="submit" value="Enviar" id="submit" />
+      <button type="reset" id="reset">Limpar</button>
+    </form>
+
+    <script src="/formulario_com_DOM/js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+#form{
+    border: 5px solid green;
+}
+
+#fieldset{
+    margin: 20px 10px 20px 10px;
+}
+
+#fieldset2{
+    margin: 20px 10px 20px 10px;
+}
+
+#submit{
+    margin-top:13px;
+    margin-bottom:50px;
+    margin-left:15px;
+}
